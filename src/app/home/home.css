@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: brown;
+}
+
+
+button {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid brown;
+    outline: none;
+    background-color: burlywood;
+    color: brown;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: aqua;
+    color: aliceblue;
+    border-color:blue;
+}
+
+div{
+    display: flex;
+    border: 1px solid brown;
+    background-color:bisque;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    
+}
